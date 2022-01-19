@@ -1,0 +1,2 @@
+# ServiceTemplate
+.NET service template
