@@ -6,7 +6,7 @@ using ServiceTemplate.Model;
 namespace ServiceTemplate.WebApi.Controllers;
 
 [ApiController]
-[Route("example")]
+[Route("api/example")]
 public class ExampleController : ControllerBase
 {
     public ExampleController(ILogger<ExampleController> logger, IMapper mapper)
