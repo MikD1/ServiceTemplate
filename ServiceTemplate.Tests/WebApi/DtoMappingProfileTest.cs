@@ -44,17 +44,6 @@ public class DtoMappingProfileTest
         Assert.AreEqual("two", model.Property2);
     }
 
-    [TestMethod]
-    public void MapUpdateDtoToModelIsCorrect()
-    {
-        ExampleModelUpdateDto dto = new("one", "two");
-        ExampleModel model = _mapper.Map<ExampleModel>(dto);
-
-        Assert.AreEqual(0, model.Id);
-        Assert.AreEqual("one", model.Property1);
-        Assert.AreEqual("two", model.Property2);
-    }
-
     private MapperConfiguration _configuration = default!;
     private IMapper _mapper = default!;
 }

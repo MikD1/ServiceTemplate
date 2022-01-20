@@ -12,8 +12,5 @@ public class DtoMappingProfile : Profile
         CreateMap<ExampleModelCreateDto, ExampleModel>()
             .ForMember(x => x.Id, options => options.Ignore())
             .ConstructUsing(x => new ExampleModel(x.Property1, x.Property2));
-        CreateMap<ExampleModelUpdateDto, ExampleModel>()
-            .ForMember(x => x.Id, options => options.Ignore())
-            .ConstructUsing(x => new ExampleModel(x.Property1, x.Property2));
     }
 }

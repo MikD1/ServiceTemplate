@@ -9,10 +9,12 @@
     <ItemGroup>
         <PackageReference Include="AutoMapper" Version="11.0.0" />
         <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.2" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\ServiceTemplate.Application\ServiceTemplate.Application.csproj" />
       <ProjectReference Include="..\ServiceTemplate.Dto\ServiceTemplate.Dto.csproj" />
       <ProjectReference Include="..\ServiceTemplate.Model\ServiceTemplate.Model.csproj" />
     </ItemGroup>

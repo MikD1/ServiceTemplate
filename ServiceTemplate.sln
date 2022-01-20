@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTemplate.Dto", "Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTemplate.Tests", "ServiceTemplate.Tests\ServiceTemplate.Tests.csproj", "{F39EC6D7-36D7-40E8-A84B-3FCA5916E47E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTemplate.Application", "ServiceTemplate.Application\ServiceTemplate.Application.csproj", "{1ED1A46C-FA7F-4E24-8B9A-CF6D73A682B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{F39EC6D7-36D7-40E8-A84B-3FCA5916E47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F39EC6D7-36D7-40E8-A84B-3FCA5916E47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F39EC6D7-36D7-40E8-A84B-3FCA5916E47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED1A46C-FA7F-4E24-8B9A-CF6D73A682B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED1A46C-FA7F-4E24-8B9A-CF6D73A682B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED1A46C-FA7F-4E24-8B9A-CF6D73A682B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED1A46C-FA7F-4E24-8B9A-CF6D73A682B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
