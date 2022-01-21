@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Mikhail Doshevsky",
+    "identity": "web.service",
+    "name": ".NET Web Service",
+    "shortName": "webservice",
+    "classifications": [
+        "Web",
+        "WebAPI",
+        "Service"
+    ],
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "ServiceTemplate",
+    "preferNameDirectory": true,
+    "guids": [
+        "FAE04EC0-301F-11D3-BF4B-00C04F79EFBC",
+        "631A10B8-AAB8-4813-99D7-A08ED9C41ADA",
+        "78526122-E0C7-4265-B35F-47363DAE9BB8",
+        "1152B550-4238-4E0C-980C-F4F810A5A169",
+        "F39EC6D7-36D7-40E8-A84B-3FCA5916E47E",
+        "1ED1A46C-FA7F-4E24-8B9A-CF6D73A682B1"
+    ]
+}
