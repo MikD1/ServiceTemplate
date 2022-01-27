@@ -23,6 +23,14 @@ dotnet new --install mikd1.service.template
 dotnet new webservice SomeName
 ```
 
+## Build and run
+
+```
+cd templates
+docker build -t webservice .
+docker run -p 127.0.0.1:5001:80 webservice
+```
+
 ## Uninstall
 
 ```
