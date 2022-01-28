@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageId>mikd1.service.template</PackageId>
     <Title>.NET WEB Services template</Title>
     <Authors>Mikhail Doshevsky</Authors>
