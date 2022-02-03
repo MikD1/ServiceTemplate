@@ -7,13 +7,7 @@ using ServiceTemplate.Application;
 using ServiceTemplate.Model;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddCors(options =>
-    options.AddDefaultPolicy(corsPolicyBuilder =>
-    {
-        corsPolicyBuilder.WithOrigins("*")
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    }));
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -35,8 +29,6 @@ builder.Services.AddDbContext<ServiceDbContext>(options =>
 builder.Services.AddScoped<IExampleModelRepository, ExampleModelRepository>();
 
 var app = builder.Build();
-
-app.UseCors();
 
 if (app.Environment.IsDevelopment())
 {
